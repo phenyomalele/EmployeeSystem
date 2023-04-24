@@ -44,4 +44,29 @@ border-radius: 8px 8px 0px opx;
         font-size: xx-small;
         
     }
+.input{
+    background: white;
+width: 20rem;
+
+
+}
+
+.navbar{
+color: black;
+    background-color: rgb(59, 175, 247);
+    font-family: sans-serif;
+}
+
+.Add{
+color: white;
+background-color: black;
+margin-left: 79.7rem;
+}
+
+.Views{
+    color: white;
+background-color: black;
+
+
+}
 }
