@@ -1,0 +1,47 @@
+body{
+  
+    margin:0;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background-color: rgba(42, 60, 81, 0.591);
+}
+.surname{
+    width: 50px;
+}
+.card{
+    background-color: rgb(112, 141, 161);
+    padding: 50px;
+    width: 500px;
+    border-radius: 0px 0px 8px 8px;
+    align-items: center;
+}
+.header {
+    background-color: black;
+    color:beige;
+    height: 70px;
+    padding: 5px;
+    text-align: center;
+border-radius: 8px 8px 0px opx;
+}
+@media only screen and (max-width: 650px) {
+    body {
+        width:100%;
+        background-color: rgb(170, 239, 248);
+        font-size: smaller;
+    }
+    .card {
+        width: 375px;
+        background-color: rgb(128, 183, 196);
+        align-items: center;
+        
+    }
+ 
+    .h1{
+        width: 10px;
+        font-size: xx-small;
+        
+    }
+}
